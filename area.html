@@ -22,12 +22,12 @@
 
         <div class="container-angle">
             <label for="base">Base</label>
-            <input type="number" class="area-input" />
+            <input type="number" class="area-input" min="1" oninput="validity.valid||(value='')" />
         </div>
 
         <div class="container-angle">
             <label for="height">Height</label>
-            <input type="number" class="area-input" />
+            <input type="number" class="area-input" min="1" oninput="validity.valid||(value='')" />
         </div>
 
         <button id="check-area-button">Check Area</button>

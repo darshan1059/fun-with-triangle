@@ -24,18 +24,18 @@
 
         <div class="container-angle">
             <label for="angle1">Angle1</label>
-            <input type="number" class="angle-input" />
+            <input type="number" class="angle-input" min="0" oninput="validity.valid||(value='')"/>
         </div>
 
         <div class="container-angle">
             <label for="angle2">Angle2</label>
-            <input type="number" class="angle-input" />
+            <input type="number" class="angle-input" min="0" oninput="validity.valid||(value='')" />
         </div>
 
 
         <div class="container-angle">
             <label for="angle3">Angle3</label>
-            <input type="number" class="angle-input" />
+            <input type="number" class="angle-input" min="0" oninput="validity.valid||(value='')" />
         </div>
 
         <button id="is-triangle-button">Is Triangle?</button>
